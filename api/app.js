@@ -1,6 +1,5 @@
 const express = require('express');
 const router = require('./src/router');
-const { sendFile } = require('express/lib/response');
 const path = require('path');
 
 const app = express();
